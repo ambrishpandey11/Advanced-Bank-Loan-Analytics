@@ -1,9 +1,9 @@
 # Advanced Bank Loan Analytics Dashboard (Power BI)
 
 ## 📌 Project Overview
-This project analyzes bank loan data to evaluate lending performance, borrower risk, and overall portfolio health. The objective is to convert raw loan data into actionable insights that support data-driven decision-making in a banking and financial services context.
+This project analyzes bank loan data to evaluate lending performance, borrower risk, and overall portfolio health. The objective is to transform raw loan data into actionable insights that support data-driven decision-making in a banking and financial services context.
 
-The solution follows an industry-aligned workflow by using SQL for data validation and Power BI for interactive visualization.
+The solution follows an industry-aligned workflow using **SQL for data validation** and **Power BI for interactive visualization**.
 
 ---
 
@@ -29,7 +29,10 @@ Key attributes include:
 
 ## 📊 Dashboard Structure
 
-### 1️⃣ Executive Summary
+### 1️⃣ Executive Summary Dashboard
+Provides a high-level view of overall lending performance and portfolio health.
+
+**Key KPIs**
 - Total Loan Applications  
 - Total Funded Amount  
 - Total Amount Received  
@@ -38,7 +41,15 @@ Key attributes include:
 - Good vs Bad Loan classification  
 - Loan Status performance overview  
 
-### 2️⃣ Trends & Overview
+📸 **Dashboard View**
+![Executive Summary](https://raw.githubusercontent.com/ambrishpandey11/Advanced-Bank-Loan-Analytics/refs/heads/main/analytical_BI_report_page-0002.jpg)
+
+---
+
+### 2️⃣ Trends & Overview Dashboard
+Supports exploratory analysis to identify trends, patterns, and distributions across the loan portfolio.
+
+**Key Analyses**
 - Monthly loan trends by issue date  
 - State-wise regional analysis  
 - Loan term distribution  
@@ -46,25 +57,36 @@ Key attributes include:
 - Loan purpose analysis  
 - Home ownership analysis  
 
-### 3️⃣ Detailed Loan Insights
+📸 **Dashboard View**
+![Trends & Overview](https://raw.githubusercontent.com/ambrishpandey11/Advanced-Bank-Loan-Analytics/refs/heads/main/analytical_BI_report_page-0003.jpg)
+
+---
+
+### 3️⃣ Detailed Loan Insights Dashboard
+Enables granular, loan-level analysis to support validation, audit, and deep-dive investigation.
+
+**Key Features**
 - Loan-level tabular view  
 - Advanced filtering and drill-down  
-- Support for validation and deep-dive analysis  
+- Support for detailed analysis and reporting  
+
+📸 **Dashboard View**
+![Detailed Loan Insights](https://raw.githubusercontent.com/ambrishpandey11/Advanced-Bank-Loan-Analytics/refs/heads/main/analytical_BI_report_page-0004.jpg)
 
 ---
 
 ## 🔍 Key Insights
 - Majority of loans are classified as **Good Loans**, indicating a healthy portfolio  
-- Charged-off loans show higher interest rates and DTI, highlighting higher risk  
+- Charged-off loans show higher interest rates and DTI, highlighting higher credit risk  
 - Loan demand is driven primarily by debt consolidation and credit card purposes  
 - Consistent monthly trends indicate stable credit demand  
 
 ---
 
 ## 🛠 Tools & Technologies
-- Power BI – Data visualization and dashboarding  
-- SQL – Data validation and KPI verification  
-- Excel / CSV – Source data handling  
+- **Power BI** – Data visualization and dashboard development  
+- **SQL** – Data validation and KPI verification  
+- **Excel / CSV** – Source data handling  
 
 ---
 
